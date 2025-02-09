@@ -70,11 +70,6 @@ body{
     font-style: normal;
 }
 
-.apresentacao__conteudo__texto a{
-    text-decoration: none;
-    color: var(--cor-terciaria);
-}
-
 .apresentacao__links{
     display: flex;
     flex-direction:column;
@@ -137,5 +132,10 @@ body{
 
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
     }
 }
